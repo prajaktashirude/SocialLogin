@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CDSocialGoogleLogin"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "This is demo for social login for creating a pod file."
 
   # This description is used to generate tags and improve search results.
