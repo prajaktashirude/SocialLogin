@@ -15,19 +15,18 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "SocialLogin"
+  spec.name         = "CDSocialGoogleLogin"
   spec.version      = "0.1.0"
-  spec.summary      = "A short description of SocialLogin."
+  spec.summary      = "This is demo for social login for creating a pod file."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "Using this we are login to google sign in with helper."
 
-  spec.homepage     = "http://EXAMPLE/SocialLogin"
+  spec.homepage     = "https://github.com/prajaktashirude/SocialLogin"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -134,4 +133,5 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'GoogleSignIn'
   spec.swift_version = "4.2"
+  spec.static_framework = true
 end
